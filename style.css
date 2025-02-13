@@ -1,3 +1,6 @@
+*{
+    margin:0;
+}
 body{
     font-family:Verdana, Georgia;
     background-color:#FAF9F6;
@@ -7,6 +10,16 @@ header{
     background-color:#A0522D;
     color:white;
     text-align:center;
+}
+nav{
+    display:flex;
+    justify-content:center;
+    gap:1vw;
+    padding:10px;
+}
+.linia{
+    height:auto;
+    border:1px solid black;
 }
 footer{
     background-color:#CD853F;
@@ -24,10 +37,13 @@ main h2{
 aside{
     width:30%;
     float:right;
+    margin-top:10vh;
+    margin-right:1vw;
 }
-ul{
+#popularnePrzepisy{
     list-style-position: inside;
-    float:right
+    text-align:center;
+    margin-left:14.5vw;
 }
 a{
     color:#FF8C00;
@@ -54,10 +70,15 @@ form label{
 }
 input[type="text"], textarea{
     border:1px solid brown;
+    width:50%;
+    height:2vh;
+    border-radius:10px;
 }
 button{
     background-color:orange;
     color:white;
+    width:51%;
+    border-radius:10px;
 }
 .lista {
     display: grid;
@@ -71,12 +92,19 @@ button{
     align-items: center;
     text-align: center;
     width: 100%;
+    border:2px #FF8C00 solid;
+    padding-top:10px;
 }
 .przepis img {
     width: 14vw;
     height: 16vh;
     margin-bottom: 10px;
+    border-radius:10px;
+    border:1px solid black;
 }
 .przepisOpis {
     max-width: 400px;
+}
+.przepisOpis p{
+    margin:10px;
 }
