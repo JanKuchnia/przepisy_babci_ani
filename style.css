@@ -52,6 +52,7 @@ button{
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    float:left;
 }
 .przepis img {
     width: 12vw;
