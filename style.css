@@ -15,7 +15,7 @@ footer{
     clear:both;
 }
 main{
-    width:65;
+    width:65%;
     margin:auto;
 }
 aside{
@@ -42,21 +42,17 @@ table td:hover{
 form label{
     text-align:left;
 }
-input[type="text"], area{
+input[type="text"], textarea{
     border:1px solid brown;
 }
 button{
     background-color:orange;
     color:white;
 }
-.lista{
-    position:absolute;
-}
 .przepis {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    float:left;
 }
 .przepis img {
     width: 12vw;
