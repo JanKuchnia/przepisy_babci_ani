@@ -1,8 +1,12 @@
 .przepis {
-    display: flex; align-items: center; margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
 }
 .przepis img {
-    width: 100px; height: 100px; margin-right: 10px;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
 }
 .przepisOpis {
     max-width: 600px;
