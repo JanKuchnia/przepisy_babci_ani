@@ -8,6 +8,37 @@ header{
     color:white;
     text-align:center;
 }
+footer{
+    background-color:#CD853F;
+    text-align:center;
+    padding:10px;
+}
+main{
+    width:65;
+    margin:auto;
+}
+aside{
+    width:30%;
+    float:right;
+}
+a{
+    color:#FF8C00;
+    text-decoration:none;
+}
+a:hover{
+    color:#FF0000;
+}
+table{
+    border:1px brown;
+}
+table td{
+    text-align:left;
+}
+table td:hover{
+    background-color:#f0f0f0;
+    color:#333;
+}
+
 .przepis {
     display: flex;
     align-items: center;
