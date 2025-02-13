@@ -25,6 +25,10 @@ aside{
     width:30%;
     float:right;
 }
+ul{
+    list-style-position: inside;
+    float:right
+}
 a{
     color:#FF8C00;
     text-decoration:none;
@@ -42,6 +46,9 @@ table td:hover{
     background-color:#f0f0f0;
     color:#333;
 }
+form{
+    text-align:right;
+}
 form label{
     text-align:left;
 }
@@ -52,19 +59,23 @@ button{
     background-color:orange;
     color:white;
 }
-.lista h2{
-    text-align:left;
+.lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
 }
 .przepis {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content:center;
-    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
 }
 .przepis img {
-    width: 12vw;
-    margin-right: 10px;
-    box-shadow: 5px 10px 10px black;
+    width: 14vw;
+    height: 16vh;
+    margin-bottom: 10px;
 }
 .przepisOpis {
     max-width: 400px;
