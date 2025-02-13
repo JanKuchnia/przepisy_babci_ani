@@ -29,7 +29,7 @@ a:hover{
     color:#FF0000;
 }
 table{
-    border:1px brown;
+    border:1px brown solid;
 }
 table td{
     text-align:left;
@@ -42,7 +42,7 @@ form label{
     text-align:left;
 }
 input[type="text"], area{
-    border:100px brown;
+    border:100px solid brown;
 }
 button{
     background-color:orange;
