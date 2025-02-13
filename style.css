@@ -18,6 +18,9 @@ main{
     width:65%;
     margin:auto;
 }
+main h2{
+    text-align:center;
+}
 aside{
     width:30%;
     float:right;
@@ -49,9 +52,13 @@ button{
     background-color:orange;
     color:white;
 }
+.lista h2{
+    text-align:left;
+}
 .przepis {
     display: flex;
     align-items: center;
+    justify-content:center;
     margin-bottom: 20px;
 }
 .przepis img {
