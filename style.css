@@ -49,8 +49,6 @@ button{
     color:white;
 }
 .przepis {
-    display: flex;
-    align-items: center;
     margin-bottom: 20px;
 }
 .przepis img {
