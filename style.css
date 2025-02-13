@@ -42,7 +42,7 @@ form label{
     text-align:left;
 }
 input[type="text"], area{
-    border:10px brown;
+    border:100px brown;
 }
 button{
     background-color:orange;
