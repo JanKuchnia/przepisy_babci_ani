@@ -48,6 +48,10 @@ button{
     background-color:orange;
     color:white;
 }
+.lista{
+    margin:10px;
+    margin-top:100px;
+}
 .przepis {
     display: flex;
     align-items: center;
@@ -61,5 +65,5 @@ button{
     box-shadow: 5px 10px 10px black;
 }
 .przepisOpis {
-    max-width: 300px;
+    max-width: 400px;
 }
