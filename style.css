@@ -3,6 +3,11 @@ body{
     background-color:#FAF9F6;
     color:#5C4033;
 }
+header{
+    background-color:#A0522D;
+    color:white;
+    text-align:center;
+}
 .przepis {
     display: flex;
     align-items: center;
