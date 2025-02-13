@@ -51,6 +51,7 @@ button{
 .przepis {
     display: flex;
     align-items: center;
+
     margin-bottom: 20px;
     float:left;
 }
@@ -60,5 +61,5 @@ button{
     box-shadow: 5px 10px 10px black;
 }
 .przepisOpis {
-    max-width: 600px;
+    max-width: 300px;
 }
