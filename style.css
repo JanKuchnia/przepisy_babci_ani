@@ -1,5 +1,7 @@
-*{
+body{
     font-family:Verdana, Georgia;
+    background-color:#FAF9F6;
+    color:#5C4033;
 }
 .przepis {
     display: flex;
