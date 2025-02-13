@@ -38,7 +38,16 @@ table td:hover{
     background-color:#f0f0f0;
     color:#333;
 }
-
+form label{
+    text-align:left;
+}
+text, area{
+    border:1px brown;
+}
+button{
+    background-color:orange;
+    color:white;
+}
 .przepis {
     display: flex;
     align-items: center;
