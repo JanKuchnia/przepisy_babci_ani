@@ -1,3 +1,6 @@
+*{
+    font-family:Verdana, Georgia;
+}
 .przepis {
     display: flex;
     align-items: center;
