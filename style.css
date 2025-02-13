@@ -41,8 +41,8 @@ table td:hover{
 form label{
     text-align:left;
 }
-text, area{
-    border:1px brown;
+input[type="text"], area{
+    border:10px brown;
 }
 button{
     background-color:orange;
