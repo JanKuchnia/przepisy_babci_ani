@@ -1,3 +1,9 @@
-.przepis img{
-    width:15dvw;
+.przepis {
+    display: flex; align-items: center; margin-bottom: 20px;
+}
+.przepis img {
+    width: 100px; height: 100px; margin-right: 10px;
+}
+.przepisOpis {
+    max-width: 600px;
 }
