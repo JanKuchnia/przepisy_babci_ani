@@ -40,7 +40,7 @@ aside{
     margin-top:10vh;
     margin-right:1vw;
 }
-#popularnePrzepisy{
+#popularnePrzepisy, #kategorieIPrzepisy{
     list-style-position: inside;
     text-align:center;
     margin-left:12.5vw;
