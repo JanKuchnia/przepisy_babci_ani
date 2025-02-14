@@ -35,15 +35,26 @@ main h2{
     text-align:center;
 }
 aside{
-    width:30%;
+    width:50%;
     float:right;
     margin-top:10vh;
     margin-right:1vw;
 }
-#popularnePrzepisy, #kategorieIPrzepisy{
+#popularnePrzepisy{
     list-style-position: inside;
     text-align:center;
     margin-left:12.5vw;
+}
+#kategorieIPrzepisy{
+    list-style-position: inside;
+    text-align:center;
+    margin-left:12.5vw;
+    display:flex;
+    gap:20px;
+}
+#kategorieIPrzepisy div{
+    flex:1;
+    margin:auto;
 }
 a{
     color:#FF8C00;
