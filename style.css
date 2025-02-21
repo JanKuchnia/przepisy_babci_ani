@@ -33,6 +33,7 @@ main{
 }
 main h2{
     text-align:center;
+    margin:1rem;
 }
 aside{
     width:50%;
@@ -64,6 +65,11 @@ a:hover{
 }
 table{
     border:1px brown solid;
+    width:19vw;
+    height:19vh;
+}
+table tr{
+    width:100%;
 }
 table td{
     text-align:left;
