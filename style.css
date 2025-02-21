@@ -63,10 +63,11 @@ a{
 a:hover{
     color:#FF0000;
 }
-table{
-    border:1px brown solid;
-    width:19vw;
-    height:19vh;
+table {
+    border: 1px brown solid;
+    width: 90%; /* Increased from 19vw to 90% */
+    height: auto; /* Changed from fixed 19vh */
+    margin: 0 auto; /* Centers the table */
 }
 table tr{
     width:100%;
@@ -137,8 +138,9 @@ button{
     align-items: center;
     text-align: center;
     width: 100%;
-    border:2px #FF8C00 solid;
-    padding-top:10px;
+    border: 2px #FF8C00 solid;
+    padding-top: 10px;
+    height: 100%;
 }
 .przepisPrzepis img {
     width: 14vw;
@@ -146,4 +148,24 @@ button{
     margin-bottom: 10px;
     border-radius:10px;
     border:1px solid black;
+}
+.przepisPrzepisOpis {
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    padding-bottom: 220px; /* Space for table at bottom */
+}
+
+.przepisPrzepisOpis table {
+    border: 1px brown solid;
+    width: 95%;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: auto;
+    min-height: 200px;
 }
