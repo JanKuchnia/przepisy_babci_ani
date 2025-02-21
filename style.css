@@ -1,143 +1,157 @@
-*{
-    margin:0;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-body{
-    font-family:Verdana, Georgia;
-    background-color:#FAF9F6;
-    color:#5C4033;
+
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #FAF9F6;
+    color: #5C4033;
+    line-height: 1.6;
 }
-header{
-    background-color:#A0522D;
-    color:white;
-    text-align:center;
+
+header {
+    background-color: #A0522D;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
 }
-nav{
-    display:flex;
-    justify-content:center;
-    gap:1vw;
-    padding:10px;
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 10px;
 }
-.linia{
-    height:auto;
-    border:1px solid black;
+
+.nav-line {
+    height: 1px;
+    width: 100%;
+    background-color: white;
 }
-footer{
-    background-color:#CD853F;
-    text-align:center;
-    padding:10px;
-    clear:both;
+
+nav a {
+    color: white;
+    text-decoration: none;
 }
-main{
-    width:65%;
-    margin:auto;
+
+nav a:hover {
+    color: #FF8C00;
 }
-main h2{
-    text-align:center;
+
+main {
+    width: 70%;
+    margin: 2rem auto;
 }
-aside{
-    width:50%;
-    float:right;
-    margin-top:10vh;
-    margin-right:1vw;
+
+section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
 }
-#popularnePrzepisy{
-    list-style-position: inside;
-    text-align:center;
-    margin-left:12.5vw;
-}
-#kategorieIPrzepisy{
-    list-style-position: inside;
-    text-align:center;
-    display:flex;
-    gap:20px;
-}
-#kategorieIPrzepisy div{
-    flex:1;
-    margin:auto;
-}
-a{
-    color:#FF8C00;
-    text-decoration:none;
-}
-a:hover{
-    color:#FF0000;
-}
-table{
-    border:1px brown solid;
-}
-table td{
-    text-align:left;
-}
-table td:hover{
-    background-color:#f0f0f0;
-    color:#333;
-}
-form{
-    text-align:right;
-}
-form label{
-    text-align:left;
-}
-input[type="text"], textarea{
-    border:1px solid brown;
-    width:50%;
-    height:2vh;
-    border-radius:10px;
-}
-button{
-    background-color:orange;
-    color:white;
-    width:51%;
-    border-radius:10px;
-}
-.lista {
+
+.recipe-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
     justify-items: center;
 }
-.przepis {
+
+.recipe-card {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    border: 2px solid #FF8C00;
+    padding-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.recipe-card img {
     width: 100%;
-    border:2px #FF8C00 solid;
-    padding-top:10px;
-}
-.przepis img {
-    width: 14vw;
-    height: 16vh;
+    height: auto;
+    max-height: 200px;
+    border-radius: 10px;
     margin-bottom: 10px;
-    border-radius:10px;
-    border:1px solid black;
 }
-.przepisOpis,.przepisPrzepisOpis {
-    max-width: 400px;
+
+.recipe-details {
+    max-width: 350px;
 }
-.przepisOpis p, .przepisPrzepisOpis{
-    margin:10px;
+
+.recipe-details h3 {
+    font-size: 1.5rem;
+    color: #5C4033;
+    margin-bottom: 10px;
 }
-.kategoria{
-    margin-top:2vw;
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
 }
-.kategoria h1{
-    text-align:center;
-    margin-bottom:0.5vw;
+
+table th, table td {
+    border: 1px solid #A0522D;
+    padding: 8px;
+    text-align: left;
 }
-.przepisPrzepis {
+
+table th {
+    background-color: #F2F2F2;
+}
+
+form {
+    margin: 2rem 0;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    border:2px #FF8C00 solid;
-    padding-top:10px;
+    justify-content: space-between;
 }
-.przepisPrzepis img {
-    width: 14vw;
-    height: 16vh;
-    margin-bottom: 10px;
-    border-radius:10px;
-    border:1px solid black;
+
+input[type="text"] {
+    width: 70%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #A0522D;
+}
+
+button {
+    background-color: #FF8C00;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF7F00;
+}
+
+aside {
+    width: 25%;
+    float: right;
+    margin-top: 3vh;
+}
+
+#popularnePrzepisy {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+footer {
+    background-color: #CD853F;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #FF8C00;
 }
