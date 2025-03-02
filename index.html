@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>Przepisy babci Ani</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .hidden { display: none; }
+    </style>
     <script>
         function szukaj(event) {
             event.preventDefault(); // Prevent page refresh
@@ -152,9 +155,9 @@
             </div>
     </main>
 <aside>
-    <form>
-    <input type="text" placeholder="Wyszukaj Przepis" id="wyszukaj">
-    <button onclick="szukaj()">Szukaj</button>
+    <form onsubmit="szukaj(event)">
+        <input type="text" placeholder="Wyszukaj Przepis" id="wyszukaj">
+        <button type="submit">Szukaj</button>
     </form>
     <div id="popularnePrzepisy">
         <ol>
