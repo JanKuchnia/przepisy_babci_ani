@@ -4,6 +4,24 @@
     <meta charset="UTF-8">
     <title>Przepisy babci Ani</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        function szukaj(event) {
+            event.preventDefault(); // Prevent page refresh
+
+            let tekst = document.getElementById("wyszukaj").value.toLowerCase();
+            let przepisy = document.querySelectorAll(".przepis");
+
+            przepisy.forEach(przepis => {
+                let tytul = przepis.querySelector("h2 a").textContent.toLowerCase();
+
+                if (tytul.includes(tekst)) {
+                    przepis.classList.remove("hidden"); // Show matching recipes
+                } else {
+                    przepis.classList.add("hidden"); // Hide non-matching recipes
+                }
+            });
+        }
+    </script>
 </head>
 <body>
 <header>
@@ -135,8 +153,8 @@
     </main>
 <aside>
     <form>
-    <input type="text" placeholder="Wyszukaj Przepis">
-    <button>Szukaj</button>
+    <input type="text" placeholder="Wyszukaj Przepis" id="wyszukaj">
+    <button onclick="szukaj()">Szukaj</button>
     </form>
     <div id="popularnePrzepisy">
         <ol>
